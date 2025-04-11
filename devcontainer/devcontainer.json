@@ -19,5 +19,4 @@
   // Beide optionen funktionieren nicht
   // deswegen manueller start notwendig im Terminal im Ordner devcontainer mit ./start.sh
   // oder mit absolutem Pfad /workspaces/Test3/devcontainer/start.sh"
-  "postCreateCommand": "./start.sh" 
 }
