@@ -3,9 +3,13 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "adminer",
   "workspaceFolder": "/workspace",
-  "extensions": [
-    "ms-azuretools.vscode-docker"
-  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
   "forwardPorts": [
     8080,
     5432
