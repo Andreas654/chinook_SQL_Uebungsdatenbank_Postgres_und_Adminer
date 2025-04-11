@@ -10,3 +10,7 @@ Server: postres
 Benutzer: your_user
 Password: your_password
 Datenbank:  your_db
+
+3. Beispiel für SQL Statement
+SET SCHEMA 'chinook';
+SELECT * FROM artist;
