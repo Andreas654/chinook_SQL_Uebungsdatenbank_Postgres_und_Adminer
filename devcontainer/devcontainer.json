@@ -14,5 +14,10 @@
     8080,
     5432
   ],
-  "postStartCommand": "./start.sh" 
+  //"postCreateCommand": "sleep 5 && docker-compose up -d"
+  //"postCreateCommand": "./start.sh" 
+  // Beide optionen funktionieren nicht
+  // deswegen manueller start notwendig im Terminal im Ordner devcontainer mit ./start.sh
+  // oder mit absolutem Pfad /workspaces/Test3/devcontainer/start.sh"
+  "postCreateCommand": "./start.sh" 
 }
