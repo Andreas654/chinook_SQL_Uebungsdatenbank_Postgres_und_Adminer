@@ -14,5 +14,5 @@
     8080,
     5432
   ],
-  "postCreateCommand": "docker-compose up -d"
+  "postCreateCommand": "sleep 5 && docker-compose up -d"
 }
