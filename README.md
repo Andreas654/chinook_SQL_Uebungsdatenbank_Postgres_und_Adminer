@@ -24,7 +24,7 @@ Anmeldeinforantionen für den Adminer:
     - SET SCHEMA 'chinook';
     - SELECT * FROM artist;
 
-5. Verbindungsinformationen für die SQL-Datenbank  (zu verifizieren!)
+5. Bei Bedarf: Verbindungsinformationen für die SQL-Datenbank  (zu verifizieren!)
     - Host: `localhost`
     - Port: `5432`
     - Benutzername: `your_user`
