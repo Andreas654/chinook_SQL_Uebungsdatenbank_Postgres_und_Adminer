@@ -15,16 +15,33 @@ Datenbank:  your_db
 SET SCHEMA 'chinook';
 SELECT * FROM artist;
 
-# PostgreSQL Practice Repository
+# PostgreSQL SQL Übungsdatenbank und Adminer
 
 Dieses Repository stellt eine Codespace-Umgebung für eine PostgreSQL-Datenbank bereit, um Übungen mit SQL durchzuführen.
 
 ## Verwendung
 
-1. Öffnen Sie dieses Repository in Codespaces.
-2. Verbinden Sie sich mit der PostgreSQL-Datenbank mit den folgenden Verbindungsinformationen:
+1. Öffnen Sie einen Coidespace für dieses Repository
+2. Start Docker Container mit
+    - cd devcontainer  (Wechsel ins Verzuechnis devconatiner)
+    - ./start.sh  (Start eines Skripts)
+
+3. Starten Sie Adminer in einem Browser
+Anmeldeinforantionen für den Adminer:
+- Datenbanksystem: postgreSQL
+- Server: postgres
+- Benutzer: your_user
+- Password: your_password
+- Datenbank: your_db
+
+
+4. Beispiel für einen SQL-Befehl
+- SET SCHEMA 'chinook';
+- SELECT * FROM artist;
+
+5. Verbindungsinformationen für die SQL-Datenbank  (zu verifizieren!)
     - Host: `localhost`
     - Port: `5432`
     - Benutzername: `youruser`
     - Passwort: `yourpassword`
-    - Datenbank: `yourdatabase`
+    - Datenbank: `your_db`
