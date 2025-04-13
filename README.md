@@ -47,7 +47,7 @@ Ein weiteres interessantes Detail ist die geographische Dimension: Kunden besitz
 Durch diese miteinander verknüpften Tabellen ergibt sich ein realistisches Datenmodell, mit dem sich viele Aspekte echter Geschäftsanalysen simulieren lassen. Studierende können hier sowohl einfache SQL-Abfragen als auch komplexe Auswertungen mit mehreren Joins, Aggregatfunktionen, Filterbedingungen oder Subqueries üben.
 
 
-## Github für die chinook Datenbank Besipiele
+## Github Quelle für die DB Skripte
 https://github.com/lerocha/chinook-database/tree/master
 
 
