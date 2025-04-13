@@ -1,6 +1,6 @@
-# PostgreSQL SQL Übungsdatenbank und Adminer
+# PostgreSQL SQL Übungsdatenbank chinook und Adminer
 
-Dieses Repository stellt eine Codespace-Umgebung für eine PostgreSQL-Datenbank bereit, um Übungen mit SQL durchzuführen.
+Dieses Repository stellt eine Codespace-Umgebung für eine PostgreSQL-Datenbank und Adminer bereit, um Übungen mit SQL durchzuführen.
 
 ## Verwendung
 
