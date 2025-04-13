@@ -6,11 +6,13 @@ Dieses Repository stellt eine Codespace-Umgebung für eine PostgreSQL-Datenbank 
 
 1. Öffnen/Erstellen Sie einen Codespace für dieses Repository
 
-2. Start Docker Container mit
+2. Start Docker Container im Codespace mit
     - cd devcontainer  (Wechsel ins Verzeichnis devconatiner)
     - ./start.sh  (Start eines Skripts)
 
 3. Starten Sie Adminer in einem Browser
+z.B. unter "Ports" durch Klicken auf "weitergeleitete Adresse" für Port 8080 und Auswahl des icons "in Browser öffnen"
+
 Anmeldeinforantionen für den Adminer:
     - Datenbanksystem: `postgresql`
     - Server: `postgres`
@@ -20,11 +22,11 @@ Anmeldeinforantionen für den Adminer:
 
 
 
-4. Beispiel für einen SQL-Befehl
+5. Beispiel für einen SQL-Befehl
     - SET SCHEMA 'chinook';
     - SELECT * FROM artist;
 
-5. Bei Bedarf: Verbindungsinformationen für die SQL-Datenbank  (zu verifizieren!)
+6. Bei Bedarf: Verbindungsinformationen für die SQL-Datenbank  (zu verifizieren!)
     - Host: `localhost`
     - Port: `5432`
     - Benutzername: `your_user`
