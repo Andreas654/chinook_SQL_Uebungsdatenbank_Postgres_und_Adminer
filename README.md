@@ -6,7 +6,7 @@ Dieses Repository stellt eine Codespace-Umgebung für eine PostgreSQL-Datenbank 
 
 1. Öffnen/Erstellen Sie einen Codespace für dieses Repository
 
-2. Start Docker Container im Codespace mit
+2. Start Docker Container für postreSQL-DB und für Adminer im Codespace mit
     - cd devcontainer  (Wechsel ins Verzeichnis devconatiner)
     - ./start.sh  (Start eines Skripts)
 
@@ -20,9 +20,11 @@ Anmeldeinforantionen für den Adminer:
 
 
 
-5. Beispiel für einen SQL-Befehl
-    - SET SCHEMA 'chinook';
-    - SELECT * FROM artist;
+5. Beispiel für einen SQL-Befehl (Eingabe im Adminer unter "SQL-Kommando")
+    - SELECT * FROM chinook.artist;
+    - Alternativ mit speparatem SET SCHEMA-Befehl:
+      - SET SCHEMA 'chinook';
+      - SELECT * FROM artist;
 
 6. Bei Bedarf: Verbindungsinformationen für die SQL-Datenbank  (zu verifizieren!)
     - Host: `localhost`
