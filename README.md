@@ -45,10 +45,3 @@ Das Unternehmen beschäftigt zudem Mitarbeiter (Employee), die z. B. als Vertr
 Ein weiteres interessantes Detail ist die geographische Dimension: Kunden besitzen Informationen zu Adresse, Stadt und Land, sodass auch regionale Auswertungen (z. B. Umsatz nach Ländern) möglich sind. Gleichzeitig sind Rechnungen mit Zeitstempeln versehen, was Analysen über Zeiträume hinweg erlaubt – etwa Trends in Verkaufszahlen oder saisonale Schwankungen.
 
 Durch diese miteinander verknüpften Tabellen ergibt sich ein realistisches Datenmodell, mit dem sich viele Aspekte echter Geschäftsanalysen simulieren lassen. Studierende können hier sowohl einfache SQL-Abfragen als auch komplexe Auswertungen mit mehreren Joins, Aggregatfunktionen, Filterbedingungen oder Subqueries üben.
-
-Durch die Vielzahl von Tabellen und deren Beziehungen eignet sich die Pagila-Datenbank ideal für die Schulung in SQL. Sie erlaubt praxisnahe Auswertungen, zum Beispiel:
-- Welche Filme wurden am häufigsten ausgeliehen?
-- Wie viel Umsatz wurde pro Store erzielt?
-- Welche Kunden sind besonders aktiv?
-- Welche Schauspieler kommen besonders häufig vor?
-Solche Fragestellungen helfen dabei, SQL-Kenntnisse auf reale Szenarien anzuwenden.
