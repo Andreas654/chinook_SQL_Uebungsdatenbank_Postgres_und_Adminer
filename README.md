@@ -10,9 +10,7 @@ Dieses Repository stellt eine Codespace-Umgebung für eine PostgreSQL-Datenbank 
     - cd devcontainer  (Wechsel ins Verzeichnis devconatiner)
     - ./start.sh  (Start eines Skripts)
 
-3. Starten Sie Adminer in einem Browser
-z.B. unter "Ports" durch Klicken auf "weitergeleitete Adresse" für Port 8080 und Auswahl des icons "in Browser öffnen"
-
+3. Starten Sie Adminer in einem Browser (z.B. unter "Ports" durch Klicken auf "weitergeleitete Adresse" für Port 8080 und Auswahl des icons "in Browser öffnen"). 
 Anmeldeinforantionen für den Adminer:
     - Datenbanksystem: `postgresql`
     - Server: `postgres`
